@@ -1,11 +1,12 @@
-import React from 'react';
+import AdviceCard from "./components/AdviceCard";
+import { AdviceProvider } from "./context/AdviceContext"; 
 
-const App = () => {
+export default function App() {
   return (
-    <div className='App relative bg-dark font-Manrope'>
-      Hi from react
-    </div>
-  )
+    <AdviceProvider>
+      <div className="App font-Manrope">
+        <AdviceCard/>
+      </div>
+    </AdviceProvider>
+  );
 }
-
-export default App
