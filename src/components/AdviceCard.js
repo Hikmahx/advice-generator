@@ -24,7 +24,7 @@ const AdviceCard = () => {
           </div>
         ) : (
           <>
-            <p className="">{errMsg}. Reload page</p>
+            <p className="text-center">{errMsg}. Reload page</p>
           </>
         )}
         <div className="absolute bottom-20 -mb-2">
