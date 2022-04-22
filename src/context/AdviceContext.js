@@ -24,7 +24,7 @@ export const AdviceProvider = ({ children }) => {
     try {
       setLoading()
 
-      const response = await fetch("https://api.adviceslip.com/advice/71");
+      const response = await fetch("https://api.adviceslip.com/advice");
       const data = await response.json();
 
       dispatch({
