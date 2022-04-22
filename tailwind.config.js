@@ -13,7 +13,7 @@ module.exports = {
         '80': '20rem',
       },
       maxWidth: {
-        'xl': '34rem',
+        'xl': '33.8rem',
       }, 
       letterSpacing:{
         '1': '0.25em'

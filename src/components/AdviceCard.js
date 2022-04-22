@@ -9,7 +9,7 @@ const AdviceCard = () => {
     useContext(AdviceContext);
 
   return (
-    <div className="card p-2  bg-dark-grayish-blue rounded-2xl w-full max-w-xl text-light-cyan relative mx-4 sm:mx-6 lg:mx-0 lg:-mt-9">
+    <div className="card p-2 pt-1 bg-dark-grayish-blue rounded-2xl w-full max-w-xl text-light-cyan relative mx-4 sm:mx-6 lg:mx-0 lg:-mt-8 shadow-3xl shadow-dark-blue">
       <div className={"min-h-80 flex flex-col items-center text-xl lg:text-2xl " + ((error || loading) ? 'justify-center' : 'pt-10')}>
         <h1 className="absolute w-1 h-1 overflow-hidden">Advice Generator</h1>
         {!error ? (
