@@ -1,7 +1,24 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        '3xl':'0rem 0rem 3rem rgb(82 255 168)'
+      },
+      fontSize:{
+        'xl': '1.4rem',
+        '2xl': '1.7rem'
+      },
+      minHeight: {
+        '80': '20rem',
+      },
+      maxWidth: {
+        'xl': '34rem',
+      }, 
+      letterSpacing:{
+        '1': '0.25em'
+      }     
+    },
     colors : {  
       "light-cyan": "#cee3e9",
       "neon-green": "#52ffa8",
